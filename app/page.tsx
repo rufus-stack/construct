@@ -204,7 +204,7 @@ export default function Home() {
             />
             {/* Project 3 */}
             <ProjectCard
-              image="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=800&auto=format&fit=crop"
+              image="https://images.unsplash.com/photo-1593701217710-c371a0eaf5d5?q=80&w=1200&auto=format&fit=crop"
               title="Vertex Tower A"
               location="New York, USA"
               category="Skyscraper"
@@ -236,8 +236,8 @@ export default function Home() {
           <Star className="w-12 h-12 text-amber-500 mx-auto mb-8 fill-amber-500" />
           <h2 className="text-3xl md:text-5xl font-bold mb-16 max-w-4xl mx-auto leading-tight">
             &quot;Dynamic Will executes with a level of precision that is rare
-            in the construction industry. Our ability to handle trans-national logistics
-            is unmatched.&quot;
+            in the construction industry. Our ability to handle trans-national
+            logistics is unmatched.&quot;
           </h2>
           <div className="flex items-center justify-center gap-4">
             <div className="w-12 h-12 bg-neutral-700 rounded-full overflow-hidden">
