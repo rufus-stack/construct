@@ -236,7 +236,7 @@ export default function Home() {
           <Star className="w-12 h-12 text-amber-500 mx-auto mb-8 fill-amber-500" />
           <h2 className="text-3xl md:text-5xl font-bold mb-16 max-w-4xl mx-auto leading-tight">
             &quot;Dynamic Will executes with a level of precision that is rare
-            in this industry. Our ability to handle trans-national logistics
+            in the construction industry. Our ability to handle trans-national logistics
             is unmatched.&quot;
           </h2>
           <div className="flex items-center justify-center gap-4">
