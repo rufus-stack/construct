@@ -1,18 +1,10 @@
 "use client";
 
 import { motion, useScroll, useTransform } from "framer-motion";
-import Link from "next/link";
-import {
-  ArrowRight,
-  Building,
-  Truck,
-  HardHat,
-  Check,
-  Quote,
-  Star,
-} from "lucide-react";
-import { ParallaxSection } from "./components/ParallaxSection";
+import { ArrowRight, Building, HardHat, Star, Truck } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
+import { ParallaxSection } from "./components/ParallaxSection";
 
 export default function Home() {
   const { scrollY } = useScroll();
@@ -53,7 +45,7 @@ export default function Home() {
               </span>
             </h1>
             <p className="text-xl md:text-3xl text-neutral-400 max-w-2xl font-light mb-12 leading-relaxed">
-              We don't just build structures.
+              We don&apos;t just build structures.
               <br />
               We engineer legacy.
             </p>
@@ -186,12 +178,12 @@ export default function Home() {
                 Selected projects from Canada & USA.
               </p>
             </div>
-            <Link
+            {/* <Link
               href="/projects"
               className="hidden md:flex items-center gap-2 font-bold text-xl hover:text-amber-500 transition-colors"
             >
               View Index <ArrowRight />
-            </Link>
+            </Link> */}
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 auto-rows-[400px]">
@@ -205,7 +197,7 @@ export default function Home() {
             />
             {/* Project 2 */}
             <ProjectCard
-              image="https://images.unsplash.com/photo-1590059902360-p0b0c20a6744?q=80&w=800&auto=format&fit=crop"
+              image="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200&auto=format&fit=crop"
               title="Fairfax Interchange"
               location="Fairfax, USA"
               category="Infrastructure"
@@ -227,14 +219,14 @@ export default function Home() {
             />
           </div>
 
-          <div className="mt-12 text-center md:hidden">
+          {/* <div className="mt-12 text-center md:hidden">
             <Link
               href="/projects"
               className="inline-flex items-center gap-2 font-bold text-xl hover:text-amber-500 transition-colors"
             >
               View Index <ArrowRight />
             </Link>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -243,9 +235,9 @@ export default function Home() {
         <div className="container mx-auto px-4 text-center">
           <Star className="w-12 h-12 text-amber-500 mx-auto mb-8 fill-amber-500" />
           <h2 className="text-3xl md:text-5xl font-bold mb-16 max-w-4xl mx-auto leading-tight">
-            "Dynamic Will executes with a level of precision that is rare in
-            this industry. Their ability to handle trans-national logistics is
-            unmatched."
+            &quot;Dynamic Will executes with a level of precision that is rare
+            in this industry. Their ability to handle trans-national logistics
+            is unmatched.&quot;
           </h2>
           <div className="flex items-center justify-center gap-4">
             <div className="w-12 h-12 bg-neutral-700 rounded-full overflow-hidden">
@@ -268,7 +260,7 @@ export default function Home() {
       <section className="relative py-40 overflow-hidden flex items-center justify-center bg-amber-500 text-black">
         <div className="container relative z-10 px-4 text-center">
           <h2 className="text-6xl md:text-9xl font-black mb-8 tracking-tighter">
-            LET'S BUILD
+            LET&apos;S BUILD
           </h2>
           <Link
             href="/#contact"
